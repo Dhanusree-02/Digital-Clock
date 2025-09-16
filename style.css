@@ -1,0 +1,40 @@
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("https://thumbs.dreamstime.com/z/digital-clock-glowing-elements-blue-background-ai-generated-digital-clock-glowing-elements-blue-background-355031826.jpg?ct=jpeg");
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .clock {
+      background: rgba(0, 0, 0, 0.6); 
+      padding: 30px 50px;
+      border-radius: 15px;
+      text-align: center;
+      color: greenyellow;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    }
+    .time {
+      font-size: 60px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: red;
+    }
+    .date {
+      font-size: 22px;
+      margin-top: 10px;
+      letter-spacing: 1px;
+      color :whitesmoke;
+    }
+  h1 {
+      color: white;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 8px whitesmoke;
+      font-size: 40px;
+    }
